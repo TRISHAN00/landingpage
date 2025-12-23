@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f1f5f9;
+  line-height: 1.6;
+}
+
+header {
+  background: #020617;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(to right, #2563eb, #1e40af);
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.container {
+  padding: 60px 40px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.stat-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.testimonial {
+  background: #e0e7ff;
+  padding: 60px 40px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  background: #020617;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  background: #1d4ed8;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
